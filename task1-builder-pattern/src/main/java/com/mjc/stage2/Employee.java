@@ -76,7 +76,7 @@ public class Employee {
         }
 
         public EmployeeBuilder setName(String Name){
-            employee.setLastName(Name);
+            employee.setName(Name);
             return this;
         }
         public EmployeeBuilder setLastName(String lastName){
