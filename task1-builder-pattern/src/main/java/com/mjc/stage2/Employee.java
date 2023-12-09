@@ -75,6 +75,10 @@ public class Employee {
             this.employee = new Employee();
         }
 
+        public EmployeeBuilder setName(String Name){
+            employee.setLastName(Name);
+            return this;
+        }
         public EmployeeBuilder setLastName(String lastName){
             employee.setLastName(lastName);
             return this;
